@@ -16,9 +16,16 @@
 </head>
 
 <body>
-    <form>
+    <form action="http://localhost:5000/tweet" method="post">
         <h1>Twitter Clone</h1>
-        <input type="text" />
+       <div>
+           <label>Title:</label>
+           <input type="text" name="title" />
+       </div>
+        <div>
+            <label>Tweet:</label>
+            <input type="text" name="tweet" />
+        </div>
         <input type="submit" value="Tweet!" />
     </form>
     <script type="text/javascript" >showMsg(message1);</script>
