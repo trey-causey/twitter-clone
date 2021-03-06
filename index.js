@@ -3,7 +3,7 @@ let message = 'Thank you for using the twitter clone';
 let message1 = message.italics();
 function showMsg(message1) {
 
-    if(number == 20 )
+    if(number === 20 )
     document.write(`The message is: ${message1}`);
 }
 
